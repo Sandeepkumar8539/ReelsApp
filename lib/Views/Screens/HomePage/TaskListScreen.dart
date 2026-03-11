@@ -77,12 +77,12 @@ class TaskListScreen extends ConsumerWidget {
                 ),
               ),
             )
-          else
-            IconButton(
-              icon: const Icon(Icons.refresh_rounded, color: Color(0xFF475569)),
-              onPressed: () => ref.read(taskProvider.notifier).fetchTasks(),
-              tooltip: 'Refresh',
-            ),
+          // else
+          //   IconButton(
+          //     icon: const Icon(Icons.refresh_rounded, color: Color(0xFF475569)),
+          //     onPressed: () => ref.read(taskProvider.notifier).fetchTasks(),
+          //     tooltip: 'Refresh',
+          //   ),
         ],
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(1),
